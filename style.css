@@ -216,6 +216,11 @@ img {
     z-index: 999999;
 }
 
+.logo-img{
+    width: 55px;
+    height: 35px;
+}
+
 .mosh-preloader {
     overflow: hidden;
     -webkit-animation: 3000ms linear 0s normal none infinite running mosh-preloader;
@@ -403,7 +408,7 @@ img {
 .menu_area #nav .nav-link:hover,
 .menu_area #nav .nav-item.active .nav-link,
 .menu_area .dropdown-item:hover {
-    color: #4a7aec;
+    color: white;
 }
 
 .login-register-btn a {
@@ -417,7 +422,7 @@ img {
 }
 
 .search-button > a {
-    margin: 0 80px;
+    margin: 0 30px;
 }
 
 .navbar-nav {
@@ -729,6 +734,7 @@ img {
     width: 100%;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
+    height: 225px;
 }
 
 .single_gallery_item:hover > img {
