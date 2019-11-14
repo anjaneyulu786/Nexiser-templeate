@@ -13,5 +13,5 @@ router.get("/",function(req,res){
 
 app.listen(3000,function(){
  //console.log(app.settings.env + ';__dirname:' + __dirname + ';');
- //console.log('NexiserApp UI Server started @Port : ' + this.address().port);
+ console.log('NexiserApp UI Server started @Port : ' + this.address().port);
 });
