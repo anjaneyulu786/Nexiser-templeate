@@ -1,15 +1,5 @@
 /* [Master Stylesheet] */
 
-/* ------------------------------------------------
-:: Template Name: Mosh - Creative Business Template
-:: Template Author: Colorlib
-:: Template Author URI: https://colorlib.com
-:: Description: Mosh - is a Creative Business Template. It's very clean, creative & beautiful. It's super responsive & ultra light.
-:: Tags: Colorlib, App Landing, Apps, Responsive App Landing, Bootstrap 4, Free Theme, Free HTML Template, HTML5 Template etc.
-:: Version: v1.0.0
-:: Created: 01/02/2018
------------------------------------------------- */
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
 
 @import 'css/bootstrap.min.css';
@@ -369,13 +359,13 @@ img {
 
 .header_area {
     left: 0;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     z-index: 999;
     top: 0;
     padding: 0 15px;
     height: 50px;
-    background-color: transparent;
+    background-color: black;
     -webkit-transition-duration: 700ms;
     transition-duration: 700ms;
 }
@@ -464,7 +454,7 @@ img {
 /* Sticky CSS */
 
 .header_area.sticky {
-    background-color: #25499f;
+    background-color: black;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     height: 50px;
     position: fixed;
